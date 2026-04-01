@@ -10,7 +10,7 @@ function App() {
     try {
       setLoading(true);
 
-      const res = await fetch("http://127.0.0.1:8000/scan", {
+      const res = await fetch("https://phishingdetectorsystem.onrender.com", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email_text: email }),
