@@ -1,0 +1,5 @@
+"""
+Your account is suspended! Click here http://bit.ly/fake-login
+Hello, your invoice is attached.
+"""
+
